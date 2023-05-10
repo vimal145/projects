@@ -1,0 +1,4 @@
+mobile 319-480  px
+tablet 421-1200  px
+laptop 1201-1600  px 
+desktop 1601-more  px

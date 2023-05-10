@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.top_section {
+    background-image: url(image/background.jpg);
+    height: 46.4vmax;
+    width: 100vmax;
+    opacity: 1;
+    display: flex;
+}
+
+
+.top_section div img {
+ 
+    border-radius: 1vmax;
+    position: relative;
+top: 1.5vmax;
+left: 2vmax;
+width: 6vmax;
+}
+#dropdown{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#dropdown1 {
+    width: 7vmax;
+    height: 2.4vmax;
+    font-size: 1vmax;
+    text-align: center;
+    border: none;
+    border-radius: 0.8vmax;
+    opacity: 0.8;
+    position: relative;
+    top: 1.5vmax;
+    left: 72vmax;
+    background-color: transparent;
+    color: white;
+    border: 0.16vmax solid white;
+}
+#dropdown1:hover{
+    cursor: pointer;
+}
+
+.nav_btn {
+    width: 17vmax;
+    height: 2.2vmax;
+    border-radius: 0.4vmax;
+    position: relative;
+    top: 1.5vmax;
+    left: 74vmax;
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_btn button {
+    font-size: 0.9vmax;
+
+    background: transparent;
+    color: white;
+    border: none;
+}
+.nav_btn:hover{
+
+ cursor: pointer;
+    background: rgb(161, 3, 3);
+    
+}
+.nav_btn button:hover{
+    cursor: pointer;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    color: white;
+    flex-direction: column;
+    margin: -8vmax;
+    margin-bottom: 3vmax;
+    margin-right: 54vmax;
+    background: black;
+    width: 74vmax;
+    height: 25vmax;
+    position: relative;
+    top: 17vmax;
+    opacity: 0.8;
+    border-radius: 0.7vmax;
+}
+.paragraph h1,h3,h4,input,button {
+    margin: 0.5vmax;
+}
+.paragraph h1,h3,h4{
+    color: white;
+    background: black;
+    opacity: 0.9;
+    border-radius: 0.4vmax;
+}
+.paragraph input{
+    width: 19vmax;
+    height: 2.7vmax;
+    font-size: 1vmax;
+    border-radius: 0.3vmax;
+    position: relative;
+    top: 2vmax;
+    right: 6vmax;
+    padding-left: 0.4vmax;
+}
+.paragraph button{
+    width: 10.2vmax;
+    height: 2.4vmax;
+    position: relative;
+    bottom: 1.5vmax;
+    left: 11vmax;
+    font-size: 1.3vmax;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.4vmax;
+}
+.paragraph button:hover{
+    background: rgb(186, 2, 2);
+    cursor: pointer;
+}
+
+.middle{
+    height: 40vmax;
+    width: 100vmax;
+    background-image: linear-gradient(to top,black,rgb(31, 29, 29));
+}
+
+.card_container{
+    color: white;
+    width: 100vmax;
+    height: 26vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 7vmax;
+   
+}
+.card_container .card{
+    width: 20vmax;
+    height: 26vmax;
+    margin: 0.4vmax;
+    padding: 0.6vmax;
+    box-sizing: border-box;
+    border: 0.16vmax solid black;
+    font-size: 1vmax;
+    border-radius: 0.7vmax;
+    background-image: linear-gradient(to top,#181049,#730A2F);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.608);
+    box-sizing: border-box;
+} 
+.card_container .card:hover{
+    cursor: pointer;
+    width: 20.5vmax;
+    height: 26.5vmax;
+    transition: 0.5s;
+}
+.card_container .card img{
+    width: 8vmax;
+    padding: 1vmax;
+
+}
+.card_container .card h2{
+    font-size: 2vmax;
+    margin-bottom: 1.3vmax;
+    padding: 1vmax;
+
+}
+.card_container .card p{
+    font-size: 1.2vmax;
+    line-height: 1.6vmax;
+    padding: 1vmax;
+
+}
+

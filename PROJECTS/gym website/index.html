@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+    <title>GYM WEBSITE</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/bg.jpg);
+        color: white;
+        background-size: cover;
+        height: 100%;
+      }
+
+      .left {
+        position: absolute;
+        top: 17px;
+        left: 29px;
+        /* border: 2px solid yellow; */
+      }
+      .mid {
+        position: absolute;
+        top: 5px;
+        left: 510px;
+        border: 1px solid rgb(99, 184, 229);
+        border-radius: 5px;
+      }
+      .right {
+        position: absolute;
+        top: 40px;
+        left: 1270px;
+        /* border: 2px solid yellow; */
+      }
+      .left img {
+        filter: invert(100%);
+        width: 86px;
+      }
+      /* .left div{
+        text-align: center;
+      } */
+
+      .navbar {
+        position: sticky;
+        display: inline-block;
+        width: 700px;
+        list-style: none;
+        font-size: 17px;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        text-decoration: none;
+        padding: 34px 23px;
+        color: white;
+        padding: 20px;
+      }
+      .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+      }
+
+      .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        /* border: 2px solid green; */
+      }
+      .btn {
+        margin: 4px 17px;
+        color: white;
+        background-color: rgb(62, 66, 78);
+        padding: 9px 19px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid gray;
+      }
+      .btn:hover {
+        background-color: rgb(20, 20, 20);
+        color: rgb(245, 240, 240);
+      }
+      .container p {
+        position: absolute;
+        top: 265px;
+        display: inline-block;
+        width: 445px;
+        left: 112px;
+        font-family: "Foldit", cursive;
+        font-size: 20px;
+        font-weight: lighter;
+      }
+      .container div {
+        position: absolute;
+        top: 250px;
+        display: inline-block;
+        width: 445px;
+        left: 112px;
+        font-family: "Foldit", cursive;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+      }
+     .form-group input{
+      margin: 10px auto;
+      padding: 10px;
+      display: block;
+      text-align: center;
+      width: 350px;
+      border-radius: 8px;
+
+    }
+    .container2{
+      position: absolute;
+      top: 200px;
+      left: 925px;
+
+    }
+    .container2{
+      font-size: 20px;
+      font-family:"Foldit", cursive ;
+    } 
+    .btn2{
+      margin: 4px 17px;
+        color: white;
+        background-color: rgb(62, 66, 78);
+        padding: 9px 19px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid gray;
+        position: absolute;
+        top: 519px;
+    left: 19px;
+      width: 300px;
+    }
+    .btn2:hover {
+        background-color: rgb(20, 20, 20);
+        color: rgb(245, 240, 240);
+      }
+    
+          
+    
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left" id="left">
+    
+        <img src="img/dumble.png" alt="">
+        <!-- <div>Vimal Fitness</div> -->
+      </div>
+      <div class="mid" id="mid">
+        <ul class="navbar">
+          <li><a href="hey.html">Home</a></li>
+          <li><a href="">Fitness Calculater</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+      </div>
+      <div class="right" id="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <p>
+        Hey Everyone! Welcome to our finess website. We are the best gym in
+        gomoh. Come to our gym and get fit and fast. Be fit and make your family
+        fit.
+      </p>
+      <div>Stay Fit , Stay Healthy!</div>
+    </div>
+    <div class="container2">
+      <form action="noaction.php">
+        <div class="form-group">
+          <label for="">Name:</label>
+          <input type="text" name="" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <label for="">Age:</label>
+          <input type="text" name="" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <label for="">Gender:</label>
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+        <div class="form-group">
+          <label for="">Locality:</label>
+          <input type="text" name="" placeholder="Enter your Locality" />
+        </div>
+        <div class="form-group">
+          <label for="">Email-id:</label>
+          <input type="text" name="" placeholder="Enter your Email Id" />
+        </div>
+        <div class="form-group">
+          <label for="">Phone no:</label>
+          <input type="text" name="" placeholder="Enter your Phone Number" />
+        </div>
+        <button class="btn2">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
